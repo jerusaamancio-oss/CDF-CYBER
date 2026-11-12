@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDF CYBER | Developer Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">CDF<span>CYBER</span></div>
+        <p class="subtitle">DEVELOPER STUDIO</p>
+
+        <p class="section-label">WORKSPACE</p>
+        <button onclick="pagina('home')">⌂ Dashboard</button>
+        <button onclick="pagina('ide')">⌘ Minha IDE</button>
+        <button onclick="pagina('projects')">▤ Projetos</button>
+
+        <p class="section-label">APRENDIZADO</p>
+        <button onclick="pagina('python')">Python</button>
+        <button onclick="pagina('javascript')">JavaScript</button>
+        <button onclick="pagina('web')">HTML / CSS</button>
+
+        <p class="section-label">CYBER LAB</p>
+        <button onclick="pagina('network')">Análise de rede</button>
+        <button onclick="pagina('security')">Segurança digital</button>
+        <button onclick="pagina('notes')">Minhas anotações</button>
+
+        <div class="sidebar-bottom">
+            <span class="dot"></span> SISTEMA ATIVO
+            <p>Version 1.0.0</p>
+        </div>
+    </aside>
+
+    <main>
+        <header>
+            <div>
+                <h2 id="page-title">Dashboard</h2>
+                <p>Seu ambiente de desenvolvimento.</p>
+            </div>
+            <div class="profile">CDF <span>●</span></div>
+        </header>
+
+        <section id="content"></section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
